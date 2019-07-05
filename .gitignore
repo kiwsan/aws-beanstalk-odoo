@@ -43,8 +43,6 @@ setup/win32/static/postgresql*.exe
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-!.ebextensions
-!.ebignore
 
 # virtualenv
 /virt/

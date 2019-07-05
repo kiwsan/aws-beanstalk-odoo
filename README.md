@@ -1,3 +1,8 @@
+[![Build Status](http://runbot.odoo.com/runbot/badge/flat/1/master.svg)](http://runbot.odoo.com/runbot)
+[![Tech Doc](http://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](http://www.odoo.com/documentation/master)
+[![Help](http://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)
+[![Nightly Builds](http://img.shields.io/badge/master-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](http://nightly.odoo.com/)
+
 Odoo
 ----
 
@@ -26,26 +31,5 @@ For a standard installation please follow the <a href="https://www.odoo.com/docu
 from the documentation.
 
 Then follow <a href="https://www.odoo.com/documentation/master/tutorials.html">the developer tutorials</a>
-
-## 🚀 Create an application on AWS Elastic Beanstalk using awsebcli
-
-1.  **Initialize your EB CLI repository with the eb init command**
-
-    ```sh
-    eb init -p python-3.6 odoo-elastic-beanstalk --region ap-southeast-1
-    ```   
-1.  **Run eb init again to configure a default keypair so that you can connect to the EC2 instance running your application with SSH**
-
-    ```sh
-    eb init
-    ```    
-1.  **Create an environment and deploy your application**
-
-    ```sh
-    eb create odoo11-env
-    ```    
-1.  **When the environment creation process completes, open your web site with eb open**
-
-    ```sh
-    eb open
-    ```    
+"# aws-beanstalk-odoo" 
+"# aws-beanstalk-odoo" 
