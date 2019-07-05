@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+# set server timezone in UTC before time module imported
+__import__('os').environ['TZ'] = 'UTC'
+__import__('os').environ['ODOO_RC'] = 'odoo.conf'
+import odoo
+
+# run the app.
+if __name__ == "__main__":
+    odoo.cli.main()
