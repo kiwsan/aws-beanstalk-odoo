@@ -27,7 +27,7 @@ from the documentation.
 
 Then follow <a href="https://www.odoo.com/documentation/master/tutorials.html">the developer tutorials</a>
 
-#### Create an application on AWS Elastic Beanstalk
+## 🚀 Create an application on AWS Elastic Beanstalk using awsebcli
 
 1.  **Initialize your EB CLI repository with the eb init command**
 
