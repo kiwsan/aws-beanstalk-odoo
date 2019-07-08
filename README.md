@@ -49,3 +49,7 @@ Then follow <a href="https://www.odoo.com/documentation/master/tutorials.html">t
     ```sh
     eb open
     ```    
+    
+## 🚀 Create the application on AWS Elastic Beanstalk via aws codecommit
+
+comming soon..
